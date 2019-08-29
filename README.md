@@ -17,10 +17,11 @@ This means that only your mobile app can talk to your mobile API.
 
 ## Setup
 
+### Prereqisites
+
 Before you begin, you need to install the [Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/installation/).
 
-## Configuration and Deployment
-
+### Configuration
 
 In `serverless.yml`:
  1. Insert your Cloudflare Account ID and Zone ID in the `provider.config` section
@@ -35,6 +36,8 @@ Add environment variables:
  1. `export ACCOUNT_ID=CLOUDFLARE_ACCOUNT_ID`
  2. `export CLOUDFLARE_AUTH_EMAIL=EMAIL_ADDRESS_YOU_USE_TO_LOG_INTO_CLOUDFLARE`
  3. `export CLOUDFLARE_AUTH_KEY=<GET FROM CLOUDFLARE CONSOLE>` - Get this "My Profile" -> "Global API Key" in CF Console
+
+### Deployment
 
 Deploy project to Cloudflare
  * `sls deploy`
