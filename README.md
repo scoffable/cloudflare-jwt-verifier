@@ -1,7 +1,7 @@
 # cloudflare-jwt-verifier
 Cloudflare worker that verifies incoming requests have a valid JSON Web Token (JWT) before the request is forwarded on to your infrastructure
 
-This use case is in conunction with the Approov service, although it could be modified to verify any JWT.
+This use case is in conunction with the [Approov](https://approov.io) service, although it could be modified to verify any JWT.
 
 ## Why?
 
