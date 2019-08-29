@@ -17,7 +17,7 @@ This means that only your mobile app can talk to your mobile API.
 
 ## Setup
 
-### Prereqisites
+### Prerequisites
 
 Before you begin, you need to install the [Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/installation/).
 
