@@ -32,12 +32,12 @@ Get Approov Secret from approov admin console
 In `jwt-verifier.js`:
  1. Replace 'SECRET HERE' with your Base64 Encoded Approov Secret (although this could work with any JWT secret). _Note to self ... use Cloudflare KV Store to hold this in future ... it didn't work at the time of writing hence the hardcoding_
 
+### Deployment
+
 Add environment variables:
  1. `export ACCOUNT_ID=CLOUDFLARE_ACCOUNT_ID`
  2. `export CLOUDFLARE_AUTH_EMAIL=EMAIL_ADDRESS_YOU_USE_TO_LOG_INTO_CLOUDFLARE`
  3. `export CLOUDFLARE_AUTH_KEY=<GET FROM CLOUDFLARE CONSOLE>` - Get this in "My Profile" -> "Global API Key" in CF Console
-
-### Deployment
 
 Deploy project to Cloudflare
  * `sls deploy`
